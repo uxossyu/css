@@ -17,7 +17,7 @@ gulpfile.jsを作成しています。
 その中にスタイルのガイドラインが作成されています。
 
 フォルダ構成はまた変更するかもしれません。
-
+``` javascript
 var gulp = require("gulp");
 var sass = require("gulp-sass");
 var autoprefixer = require("gulp-autoprefixer");
@@ -50,5 +50,5 @@ gulp.task("sass", function() {
 gulp.task("default",['server'], function() {
     gulp.watch("www/sass/**/*.scss",["sass"]);
 });
-
+```
 
