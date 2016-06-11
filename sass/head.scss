@@ -5,15 +5,12 @@
  
 `.inner_text`で文字を白くする
  
-## テスト
+```
 <div class="heading">
-	<h2>テスト</h2>
-	<p class="heading__link">リンク</p>
-</div>
+	<h2></h2>
+	<p class="heading__inner"></p>
+</div>```
 */
-h2{
-	color: red;
-}
 .heading {
 	position: relative;
 	border: 2px solid #000;
